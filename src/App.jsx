@@ -1,7 +1,5 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Route, Route } from 'react-router-dom';
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +9,7 @@ function App() {
       <h1>Hello React Router!</h1>
       <div id="navbar">{/* navigation here */}</div>
       <div id="main-section">{/* routes here */}</div>
+      <Routes></Routes>
     </div>
   );
 }
