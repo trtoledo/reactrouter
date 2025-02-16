@@ -11,10 +11,11 @@ body > div {
   display: flex;
   flex-direction: column;
 }
-#container > div {
+#container > div,
+#container > footer {
   display: flex;
 }
-#navbar {
+.navbar {
   padding: 2em;
   justify-content: space-evenly;
 }
