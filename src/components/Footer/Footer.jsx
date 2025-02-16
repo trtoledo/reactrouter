@@ -7,6 +7,7 @@ function Footer() {
     <Link to="/home">HOME</Link>
     <Link to="/blue">BLUE</Link>
     <Link to="/red">RED</Link>
+    &copy;2025
     </footer>
   )
 }
