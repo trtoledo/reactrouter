@@ -1,20 +1,16 @@
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Blue from "./components/Blue/Blue";
 import Red from "./components/Red/Red";
 import Home from "./components/Home/home";
-
+import Nav from "./components/Nav/Nav";
 
 function App() {
   //const [count, setCount] = useState(0)
 
   return (
     <div id="container">
+      <Nav/>
      
-      <div id="navbar">
-        <Link to="/home">HOME</Link>
-        <Link to="/blue">BLUE</Link>
-        <Link to="/red">RED</Link>
-        </div>
       <div id="main-section">
       <Routes>
        <Route path="/blue" element={<Blue/>} />
